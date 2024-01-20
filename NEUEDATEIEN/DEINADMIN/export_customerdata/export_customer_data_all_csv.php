@@ -1,12 +1,12 @@
 <?php
 /**
 * @package Export Customer Data as CSV
-* @copyright Copyright 2015-2022, webchills www.webchills.at
+* @copyright Copyright 2015-2024, webchills www.webchills.at
 * @copyright Portions Copyright 2003-2022 Zen Cart Development Team
 * @copyright Portions Copyright 2009 911-need-code-help.blogspot.com
 * Zen Cart German Version - www.zen-cart-pro.at
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: export_customerdata_all_csv.php 2022-02-15 09:20:10 webchills $
+* @version $Id: export_customerdata_all_csv.php 2024-01-20 17:20:10 webchills $
 */
 
 chdir('../');
@@ -58,10 +58,6 @@ function echocsv( $fields )
 $separator = '';
 foreach ( $fields as $field )
 {
-if ( preg_match( '/[\r\n,"]/', $field ) )
-{
-$field = '"' . str_replace( '"', '""', $field ) . '"';
-}
 echo $separator . $field;
 $separator = ',';
 }
