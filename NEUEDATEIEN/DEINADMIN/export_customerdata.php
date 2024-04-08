@@ -6,7 +6,7 @@
 * @copyright Portions Copyright 2009 911-need-code-help.blogspot.com
 * Zen Cart German Version - www.zen-cart-pro.at
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: export_customerdata.php 2024-01-20 17:51:10 webchills $
+* @version $Id: export_customerdata.php 2024-04-08 15:39:10 webchills $
 */
 require('includes/application_top.php');
 ?>
@@ -31,7 +31,7 @@ require('includes/application_top.php');
  	<br/><br/>
  	 <div class="row">
            <div class="form-group">
- 	<a class="btn btn-default" href="export_customerdata/export_customer_data_all_csv.php">Download/Export</a>
+ 	<a class="btn btn-primary" role="button" href="export_customerdata/export_customer_data_all_csv.php">Download/Export</a>
        </div>
     </div>
    

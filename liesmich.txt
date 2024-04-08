@@ -1,6 +1,6 @@
-Kundendaten als csv exportieren für Zen-Cart 1.5.7 deutsch
-Version 1.4.2
-Februar 2022
+Kundendaten als csv exportieren für Zen-Cart 1.5.7h deutsch
+Version 1.4.3
+April 2024
 webchills / www.webchills.at
 
 
